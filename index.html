@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="./css/responsivo.css" media="screen and (max-width:430px)">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <title>B7 Burguer</title>
+</head>
+
+<body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+           
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul>
+                <div class="logo-mobile">
+                    <img src="./img/Burger - logo.png">
+                </div>
+    
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html">Burguers</a></li>
+                <li><a href="index.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <header>
+        <div class="logo-header">
+            <img src="./img/Burger - logo.png" alt="Logo da Empresa">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html">Burguers</a></li>
+                <li><a href="index.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn-header">Fazer pedido</button>
+    </header>
+
+    <main>
+        <div class="container-layout">
+            <div class="content-column">
+                <h1>O Hamburguer
+                    <br>mais delicioso.<span class="emoji">😋</span>
+                </h1>
+
+                <p>A primeira hamburgueria virtual que você faz o <br>pedido online e come o burger através do
+                    <br>computador.
+                </p>
+
+                <button class="btn-pedido">Fazer pedido</button>
+            </div>
+
+            <div class="image-column">
+                <img src="./img/burger-img.png" alt="Descrição da Imagem">
+            </div>
+        </div>
+
+        <div class="custom-box">
+            <h2>Pesquise o seu <br>Hamburguer favorito!</h2>
+
+            <div class="search-container">
+
+                <div class="search-box">
+                    <span class="search-button">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    Digite o nome do Burguer
+                </div>
+
+                <div class="category-box">
+                    <button class="btn-categoria">
+                        Selecionar Categoria
+                        <span class="category-icon">
+                            <i class="fas fa-caret-down"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-burguer">
+            <div class="item">
+                <span class="promotion">Promoção</span>
+                <img src="./img/burguer coluna - img/Card-burger 1.png" alt="Imagem 1">
+                <div class="descricao-burguer">
+                    <p class="title-burguer">Tradicional</p>
+                    <p class="subtitle">Texas Burguer</p>
+                    <p class="valor">R$ 25,50</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/burguer coluna - img/Card-burger 2.png" alt="Imagem 2">
+                <div class="descricao-burguer">
+                    <p class="title-burguer">Tradicional</p>
+                    <p class="subtitle">Texas Burguer</p>
+                    <p class="valor">R$ 25,50</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/burguer coluna - img/Card-burger 3.png" alt="Imagem 3">
+                <div class="descricao-burguer">
+                    <p class="title-burguer">Tradicional</p>
+                    <p class="subtitle">Texas Burguer</p>
+                    <p class="valor">R$ 25,50</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-burguer">
+            <div class="item">
+                <img src="./img/burguer coluna - img/Card-burger 4.png" alt="Imagem 1">
+                <div class="descricao-burguer">
+                    <p class="title-burguer">Tradicional</p>
+                    <p class="subtitle">Texas Burguer</p>
+                    <p class="valor">R$ 25,50</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/burguer coluna - img/Card-burger 1.png" alt="Imagem 2">
+                <div class="descricao-burguer">
+                    <p class="title-burguer">Tradicional</p>
+                    <p class="subtitle">Texas Burguer</p>
+                    <p class="valor">R$ 25,50</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/burguer coluna - img/Card-burger 2.png" alt="Imagem 3">
+                <div class="descricao-burguer">
+                    <p class="title-burguer">Tradicional</p>
+                    <p class="subtitle">Texas Burguer</p>
+                    <p class="valor">R$ 25,50</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img class="footer-img" src="./img/B7 • Burger (footer).png" alt="Logo">
+        <p class="footer-site">&copy; Biel. 2024 | Todos os direitos reservados.</p>
+    </footer>
+
+
+    <!--chamada para js-->
+    <script src="./js/script.js"></script>
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/e483feee38.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

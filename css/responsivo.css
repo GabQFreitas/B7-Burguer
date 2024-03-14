@@ -1,0 +1,182 @@
+@media only screen and (max-width: 430px) {
+
+
+    header {
+        display: none;
+    }
+
+    .container-layout {
+        width: 70%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 96px;
+    }
+
+
+    .content-column h1 {
+        font-size: 30px;
+    }
+
+    .content-column p {
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+
+    .btn-pedido {
+        width: 180px;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .image-column img {
+        position: static;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .search-container {
+        flex-direction: column;
+        gap: 32px;
+
+    }
+
+    .custom-box h2 {
+        margin-left: 0;
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .promotion {
+        left: 25%;
+    }
+
+    .container-burguer {
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .item img {
+        width: 160px;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-site {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+
+    /* MENU HAMBURGUER */
+
+    #menu {
+        z-index: 2;
+    }
+
+    #menu-bar {
+        width: 45px;
+        height: 40px;
+        margin: 30px 0 20px 20px;
+        cursor: pointer;
+    }
+
+    .bar {
+        height: 5px;
+        width: 100%;
+        background-color: white;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    #bar1 {
+        transform: translateY(-4px);
+    }
+
+    #bar3 {
+        transform: translateY(4px);
+    }
+
+    .nav {
+        transition: 0.3s ease;
+        display: none;
+    }
+
+    .nav ul {
+        padding-top: 8px;
+        flex-direction: column;
+    }
+
+    .nav li {
+        list-style: none;
+        padding-top: 8px;
+    }
+
+    .nav li a {
+        font-family: 'Inter-Regular', sans-serif;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        font-weight: bold;
+    }
+
+    .menu-bg,
+    #menu {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .logo-mobile img {
+        padding-left: 16px;
+        width: 100px;
+    }
+
+    .menu-bg {
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle, #2B2B2B, #2B2B2B);
+        border-radius: 50%;
+        transition: 0.3s ease;
+    }
+
+    .change {
+        display: block;
+    }
+
+    .change .bar {
+        background-color: white;
+    }
+
+    .change #bar1 {
+        transform: translateY(4px) rotateZ(-45deg);
+    }
+
+    .change #bar2 {
+        opacity: 0;
+    }
+
+    .change #bar3 {
+        transform: translateY(-6px) rotateZ(45deg);
+    }
+
+    .change-bg {
+        width: 520px;
+        height: 460px;
+        transform: translate(-60%, -30%);
+    }
+
+}

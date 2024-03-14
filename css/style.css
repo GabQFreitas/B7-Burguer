@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #141414;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    max-width: 100%; 
+    box-sizing: border-box;
+    background-color: #141414;
+    text-align: center;
+    padding: 32px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-header {
+    max-width: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 33.6px;
+    font-weight: 400;
+}
+
+button.btn-header {
+    padding: 10px 20px;
+    background-color: #1F1F1F;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -5px;
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: 18px;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-layout {
+    display: flex;
+    margin-top: 48px;
+}
+
+.content-column {
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.content-column h1 {
+    font-family: "Calistoga", sans-serif;
+    font-size: 72px;
+    line-height: 74px;
+    font-weight: 400;
+    color: white;
+}
+
+.image-column img {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 360px;
+    height: auto;
+}
+
+.emoji {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.content-column p {
+    margin-top: 32px;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn-pedido {
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    padding: 16px 16px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 32px;
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: 18px;
+}
+
+
+/* BOXES */
+
+.custom-box {
+    padding: 48px;
+    margin-top: 24px;
+    background-color: #1F1F1F;
+    border-radius: 16px;
+}
+
+.custom-box h2 {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 32px;
+    margin-left: 128px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.search-box {
+    width: 280px;
+    padding: 16px 24px;
+    color: #979797;
+    background-color: #2B2B2B;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button i {
+    margin-right: 8px;
+    color: white;
+}
+
+.category-icon {
+    margin-left: 16px;
+    color: white;
+}
+
+.btn-categoria {
+    width: 280px;
+    padding: 16px 24px;
+    background-color: #2B2B2B;
+    color: #979797;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* COLUNAS BURGUER */
+
+.container-burguer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 32px auto;
+}
+
+.item {
+    position: relative;
+    background: linear-gradient(#2B2B2B 50%, #1F1F1F 50%);
+    border-radius: 8px;
+    display: flex;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.item img {
+    max-width: 200px;
+}
+
+.promotion {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: 16px;
+}
+
+.title-burguer {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 16px;
+}
+
+.subtitle {
+    font-family: 'Calistoga', sans-serif;
+    font-size: 28px;
+    color: white;
+    margin-top: 8px;
+}
+
+.valor {
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: 'Inter-Bold', sans-serif;
+    color: #ff6600;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer-img {
+    max-width: 200px;
+}
+
+.footer-site {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* MENU HAMBURGUER */
+
+@media only screen and (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    .container-layout {
+        width: 70%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .content-column h1 {
+        font-size: 32px;
+    }
+
+    .content-column p {
+        font-size: 22px;
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+
+    .btn-pedido {
+        width: 180px;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .image-column img {
+        position: static;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+    .search-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .search-box {
+        margin: 0 auto;
+    }
+
+    .category-box {
+        margin: 0 auto;
+    }
+
+    .custom-box h2 {
+        margin-left: -24px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .promotion {
+        left: 36%;
+    }
+
+    .container-burguer {
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-site {
+        margin-top: 16px;
+    }
+
+}
+
+
